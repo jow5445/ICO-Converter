@@ -100,7 +100,6 @@ function handleFiles(files) {
         document.getElementById('custom-convertButton').disabled = true;
     }
 
-    // Reset the input value to allow re-upload of the same file
     document.getElementById('custom-pngInput').value = '';
 }
 
