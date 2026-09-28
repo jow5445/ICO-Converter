@@ -46,4 +46,4 @@ No build tools or servers required.
 
 1. Clone or download the repository:
    ```bash
-   git clone [git@github.com:jow5445/ICO-Converter.git](git@github.com:jow5445/ICO-Converter.git)
+   git clone [https://github.com/jow5445/ICO-Converter.git](https://github.com/jow5445/ICO-Converter.git)
