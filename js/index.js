@@ -1,6 +1,3 @@
-/*
-(C) prepphint.com all right reserved.
-*/
 document.querySelector('.custom-browse-button').addEventListener('click', function () {
     document.getElementById('custom-pngInput').click();
 });
