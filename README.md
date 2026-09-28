@@ -2,13 +2,13 @@
 
 A simple, client-side web tool to convert PNG images into Windows icon (`.ico`) format right in the browser. No uploads to external servers, no quality loss—just drop your files, arrange them, and download.
 
-🔗 **Live Demo:** [PNG to ICO Converter](https://prepphint.com/png-to-ico/)
+🔗 **Live Demo:** [PNG to ICO Converter](https://jow5445.github.io/ICO-Converter/)
 
 ---
 
 ## Preview
 
-![PNG to ICO Converter Screenshot](https://github.com/user-attachments/assets/0995dd2d-4b4a-4ba3-8fa9-c93774546eeb)
+![PNG to ICO Converter Screenshot](https://cdn.hackclub.com/01a0e947-b06c-7976-8b33-67b73532d789/Screenshot%20From%202026-09-28%2021-29-31.png)
 
 ---
 
@@ -46,4 +46,4 @@ No build tools or servers required.
 
 1. Clone or download the repository:
    ```bash
-   git clone [https://github.com/your-username/png-to-ico.git](https://github.com/your-username/png-to-ico.git)
+   git clone [git@github.com:jow5445/ICO-Converter.git](git@github.com:jow5445/ICO-Converter.git)
