@@ -1,0 +1,156 @@
+.custom-upload-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.custom-upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.custom-upload-icon {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.custom-preview-container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-preview-image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: move;
+}
+
+.remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.remove-button svg {
+    width: 24px;
+    height: 24px;
+    fill: red;
+}
+
+.custom-browse-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.custom-browse-button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.custom-convert-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.custom-convert-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.custom-convert-button:hover:enabled {
+    background-color: #0056b3;
+}
+
+.custom-download-button {
+    background-color: #d9d9d9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.spinner-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #007bff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
