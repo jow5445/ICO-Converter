@@ -1,19 +1,36 @@
-<div class="custom-button-container">
-    <button class="custom-convert-button" id="custom-convertButton" disabled>Convert to ICO</button>
-    <a id="custom-downloadButton" class="custom-download-button" style="display: none;">Download ICO</a>
-</div>
-<div id="custom-output"></div>
-<div class="custom-upload-container">
-    <div class="custom-preview-container" id="custom-previewContainer"></div>
-    <div class="custom-upload-area" id="custom-uploadfile">
-        <img src="https://prepphint.com/wp-content/uploads/2024/06/upload-icon.webp" alt="Upload Icon"
-            class="custom-upload-icon" id="custom-uploadIcon">
-        <p id="upload-text">Drag & Drop to upload Files or</p>
-        <button class="custom-browse-button">Browse Files</button>
-        <input type="file" id="custom-pngInput" accept="image/png" multiple>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ICO Converter</title>
+</head>
+
+<body>
+    <div class="custom-button-container">
+        <button class="custom-convert-button" id="custom-convertButton" disabled>Convert to ICO</button>
+        <a id="custom-downloadButton" class="custom-download-button" style="display: none;">Download ICO</a>
     </div>
-    <div class="spinner-overlay" id="spinner-overlay">
-        <div class="spinner" id="spinner"></div>
+    <div id="custom-output"></div>
+    <div class="custom-upload-container">
+        <div class="custom-preview-container" id="custom-previewContainer"></div>
+        <div class="custom-upload-area" id="custom-uploadfile">
+            <img src="https://prepphint.com/wp-content/uploads/2024/06/upload-icon.webp" alt="Upload Icon"
+                class="custom-upload-icon" id="custom-uploadIcon">
+            <p id="upload-text">Drag & Drop to upload Files or</p>
+            <button class="custom-browse-button">Browse Files</button>
+            <input type="file" id="custom-pngInput" accept="image/png" multiple>
+        </div>
+        <div class="spinner-overlay" id="spinner-overlay">
+            <div class="spinner" id="spinner"></div>
+        </div>
+        <div class="error-message" id="error-message" style="display: none;">Please upload PNG images.</div>
     </div>
-    <div class="error-message" id="error-message" style="display: none;">Please upload PNG images.</div>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
