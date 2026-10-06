@@ -37,11 +37,11 @@ There are no uploads to a server, so your images stay on your device. You can ad
 
 ## Built With
 
-* **HTML5 & CSS3** – Page structure and styling.
-* **Vanilla JavaScript** – Handles the conversion and UI.
-* **Canvas API** – Used to process the PNG images.
-* **JSZip** – Used to create ZIP files when converting multiple images.
-* **SortableJS** – Used for drag-and-drop reordering.
+* **HTML5 & CSS3** - Page structure and styling.
+* **Vanilla JavaScript** - Handles the conversion and UI.
+* **Canvas API** - Used to process the PNG images.
+* **JSZip** - Used to create ZIP files when converting multiple images.
+* **SortableJS** - Used for drag-and-drop reordering.
 
 ---
 
