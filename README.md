@@ -1,6 +1,8 @@
 # PNG to ICO Converter
 
-A simple, client-side web tool to convert PNG images into Windows icon (`.ico`) format right in the browser. No uploads to external servers, no quality loss—just drop your files, arrange them, and download.
+A small web tool that lets you convert PNG images to Windows `.ico` files directly in your browser.
+
+There are no uploads to a server, so your images stay on your device. You can add multiple images, arrange them, and download the converted icons when you're done.
 
 **Live Demo:** [PNG to ICO Converter](https://jow5445.github.io/ICO-Converter/)
 
@@ -14,36 +16,42 @@ A simple, client-side web tool to convert PNG images into Windows icon (`.ico`) 
 
 ## Features
 
-- **Batch Conversion:** Upload multiple PNG images at once.
-- **Drag & Drop:** Drop files straight onto the upload area or browse manually.
-- **Image Preview & Reordering:** Preview your images, delete unwanted ones, and reorder them before converting.
-- **Client-Side Processing:** Images are converted in the browser using the HTML5 Canvas API—fast and private.
-- **Smart Downloads:** Downloads a single `.ico` file directly, or bundles multiple files into a `.zip` archive automatically.
+* **Batch Conversion:** Convert multiple PNG images at once.
+* **Drag & Drop:** Drag your files into the upload area or select them manually.
+* **Image Preview:** See your images before converting them.
+* **Reordering:** Change the order of your images with drag and drop.
+* **Client-Side Conversion:** Everything runs directly in your browser using the Canvas API.
+* **ZIP Download:** When converting multiple images, they are automatically bundled into a ZIP file.
 
 ---
 
 ## How to Use
 
-1. **Upload:** Drag and drop your PNG images into the drop zone or click **Browse Files**.
-2. **Review:** Check your image previews. Click the `×` on any thumbnail to remove it if needed.
-3. **Convert:** Hit the **Convert to ICO** button.
-4. **Download:** Click **Download ICO** (or download the `.zip` archive if you converted multiple images).
+1. Add your PNG files by dragging them into the upload area or clicking **Browse Files**.
+2. Check the image previews and remove any files you don't want.
+3. Reorder the images if needed.
+4. Click **Convert to ICO**.
+5. Download the generated `.ico` file or ZIP archive.
 
 ---
 
 ## Built With
 
-- **HTML5 & CSS3** – Semantic structure and responsive layout
-- **Vanilla JavaScript** – Canvas-based ICO conversion and UI state management
-- [JSZip](https://stuk.github.io/jszip/) – For bundling multiple icons into a single ZIP file
-- [SortableJS](https://sortablejs.github.io/Sortable/) – Drag-and-drop thumbnail reordering
+* **HTML5 & CSS3** – Page structure and styling.
+* **Vanilla JavaScript** – Handles the conversion and UI.
+* **Canvas API** – Used to process the PNG images.
+* **JSZip** – Used to create ZIP files when converting multiple images.
+* **SortableJS** – Used for drag-and-drop reordering.
 
 ---
 
-## Getting Started Locally
+## Getting Started
 
-No build tools or servers required.
+There is no build process or backend required. You can just clone the repository and open the project in your browser.
 
-1. Clone or download the repository:
-   ```bash
-   git clone [https://github.com/jow5445/ICO-Converter.git](https://github.com/jow5445/ICO-Converter.git)
+```bash
+git clone https://github.com/jow5445/ICO-Converter.git
+cd ICO-Converter
+```
+
+Then open `index.html` in your browser.
